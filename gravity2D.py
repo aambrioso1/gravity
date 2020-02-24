@@ -3,8 +3,8 @@ import plot
 
 """
 Follows Armando Signorini's nice Excel spreadsheet "differentials 2."
-We use a set recursive equations to plot the path of a projectile moving 
-under the influenced by gravity and drag.
+We use a set of recursive equations to plot the path of a projectile moving 
+under the influenced of gravity and drag.
 """
 
 # Set up constants
