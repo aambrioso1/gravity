@@ -17,7 +17,7 @@ vel = 4000
 angle = np.pi/18
 time = range(0,n)
 
-# Set up starting conditions
+# Set up initial conditions
 init_x_vel= vel*np.cos(angle)
 init_y_vel = vel*np.sin(angle)
 init_x = 0
@@ -34,7 +34,7 @@ xlist = [init_x]
 ylist = [init_y]
 flist = [init_y]
 
-# Two helper functions grav() and drag() used to make calculuation more readable.
+# Two helper functions grav() and drag() used to make calculations more readable.
 def grav(coord, x_val, y_val):
     return (gravity * mass * coord)/(x_val**2 + y_val**2)**(3/2)
 
