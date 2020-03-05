@@ -12,4 +12,4 @@ def my_plot(x_list, y_list, title_txt):
 
 
 if __name__ == '__main__':
-    print(type(my_plot(x_s, y_s)))
+    print(type(my_plot(x_s, y_s, 'random numbers')))
